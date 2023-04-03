@@ -7,8 +7,8 @@ const inputPassword = input[1];
 form.addEventListener(`submit`, onFormSubmit);
 
 function onFormSubmit (event) {
-event.preventDefault();
-const {
+ event.preventDefault();
+ const {
     elements: { email, password }
   } = event.currentTarget;
 
